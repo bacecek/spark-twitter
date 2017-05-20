@@ -7,7 +7,7 @@ import java.io.IOException
 fun main(args: Array<String>) {
 
     // Получение имени файла, в котором хранятся твиты
-    val inputFile = args[0]
+    val inputFile = "output.txt"
 
     // Инициализация Spark
     val config = SparkConf()
